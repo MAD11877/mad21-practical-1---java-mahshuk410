@@ -9,8 +9,9 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
+    // System.out.println("Enter a whole number: "); 
     Scanner in = new Scanner(System.in);
-    
+    double result = Math.pow(in.nextInt(),2);
+    System.out.println(result);
   }
 }
