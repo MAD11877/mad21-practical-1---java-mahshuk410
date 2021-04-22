@@ -11,7 +11,8 @@ public class Question3
      */
     // System.out.println("Enter a whole number: "); 
     Scanner in = new Scanner(System.in);
-    int result = Math.pow(in.nextInt(),2);
+    int num = in.nextInt();
+    int result = num * num;
     System.out.println(result);
   }
 }
